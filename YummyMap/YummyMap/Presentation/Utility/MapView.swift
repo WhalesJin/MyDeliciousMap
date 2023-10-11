@@ -9,19 +9,21 @@ import SwiftUI
 import NMapsMap
 
 struct MapView: UIViewRepresentable {
-    @ObservedObject var viewModel = MapSceneViewModel()
+    @ObservedObject var viewModel = YummyMainViewModel()
     
     func makeUIView(context: Context) -> NMFNaverMapView {
         let view = NMFNaverMapView()
         view.showZoomControls = false
         view.mapView.positionMode = .direction
-        view.mapView.zoomLevel = 10
+        view.mapView.zoomLevel = 14
         return view
     }
     
     func updateUIView(_ uiView: NMFNaverMapView, context: Context) { }
 }
 
-class MapSceneViewModel: ObservableObject {
-    
+struct MapView_Previews: PreviewProvider {
+    static var previews: some View {
+        MapView()
+    }
 }
