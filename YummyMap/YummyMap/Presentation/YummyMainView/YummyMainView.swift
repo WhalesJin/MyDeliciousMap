@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  YummyMainView.swift
 //  YummyMap
 //
 //  Created by Whales on 10/9/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct YummyMainView: View {
     var body: some View {
         MapView()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct YummyMainView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        YummyMainView()
     }
 }

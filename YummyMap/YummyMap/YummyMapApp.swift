@@ -11,7 +11,7 @@ import SwiftUI
 struct YummyMapApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            YummyMainView()
         }
     }
 }

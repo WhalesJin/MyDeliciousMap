@@ -22,6 +22,8 @@ struct MapView: UIViewRepresentable {
     func updateUIView(_ uiView: NMFNaverMapView, context: Context) { }
 }
 
-class MapSceneViewModel: ObservableObject {
-    
+struct MapView_Previews: PreviewProvider {
+    static var previews: some View {
+        MapView()
+    }
 }
