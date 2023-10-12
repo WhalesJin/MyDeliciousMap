@@ -11,14 +11,35 @@
 		3C8F6E592AD3C814002BBF52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6E582AD3C814002BBF52 /* ContentView.swift */; };
 		3C8F6E5B2AD3C816002BBF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8F6E5A2AD3C816002BBF52 /* Assets.xcassets */; };
 		3C8F6E5E2AD3C816002BBF52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8F6E5D2AD3C816002BBF52 /* Preview Assets.xcassets */; };
+		3C8F6EA92AD5BA0F002BBF52 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EA82AD5BA0F002BBF52 /* MapView.swift */; };
+		3C8F6EB22AD67C1C002BBF52 /* AddYummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EB12AD67C1C002BBF52 /* AddYummyView.swift */; };
+		3C8F6EB52AD6B4D6002BBF52 /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EB42AD6B4D6002BBF52 /* GroupListView.swift */; };
+		3C8F6EB82AD6B6BE002BBF52 /* YummyPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EB72AD6B6BE002BBF52 /* YummyPlace.swift */; };
+		3C8F6EBA2AD6C0ED002BBF52 /* AddYummyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EB92AD6C0ED002BBF52 /* AddYummyViewModel.swift */; };
+		3C8F6EBC2AD6E300002BBF52 /* GroupListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EBB2AD6E300002BBF52 /* GroupListViewModel.swift */; };
+		3C8F6EBE2AD701D8002BBF52 /* YummyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EBD2AD701D8002BBF52 /* YummyGroup.swift */; };
+		3C8F6EC02AD701EF002BBF52 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EBF2AD701EF002BBF52 /* PlaceCategory.swift */; };
+		E2194D386384458594473EE8 /* Pods_YummyMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0863AEA5D285F0FD21BB5CFF /* Pods_YummyMap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0863AEA5D285F0FD21BB5CFF /* Pods_YummyMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YummyMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8F6E532AD3C814002BBF52 /* YummyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YummyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8F6E562AD3C814002BBF52 /* YummyMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyMapApp.swift; sourceTree = "<group>"; };
 		3C8F6E582AD3C814002BBF52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C8F6E5A2AD3C816002BBF52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C8F6E5D2AD3C816002BBF52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C8F6E9C2AD58F38002BBF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3C8F6EA82AD5BA0F002BBF52 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3C8F6EB12AD67C1C002BBF52 /* AddYummyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddYummyView.swift; sourceTree = "<group>"; };
+		3C8F6EB42AD6B4D6002BBF52 /* GroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
+		3C8F6EB72AD6B6BE002BBF52 /* YummyPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyPlace.swift; sourceTree = "<group>"; };
+		3C8F6EB92AD6C0ED002BBF52 /* AddYummyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddYummyViewModel.swift; sourceTree = "<group>"; };
+		3C8F6EBB2AD6E300002BBF52 /* GroupListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewModel.swift; sourceTree = "<group>"; };
+		3C8F6EBD2AD701D8002BBF52 /* YummyGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyGroup.swift; sourceTree = "<group>"; };
+		3C8F6EBF2AD701EF002BBF52 /* PlaceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategory.swift; sourceTree = "<group>"; };
+		5ED51C2F0D5CDE4FB6A15629 /* Pods-YummyMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YummyMap.debug.xcconfig"; path = "Target Support Files/Pods-YummyMap/Pods-YummyMap.debug.xcconfig"; sourceTree = "<group>"; };
+		886BC814A8B88EAFDE975BEB /* Pods-YummyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YummyMap.release.xcconfig"; path = "Target Support Files/Pods-YummyMap/Pods-YummyMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2194D386384458594473EE8 /* Pods_YummyMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B30EE372AE3B27F589437A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ED51C2F0D5CDE4FB6A15629 /* Pods-YummyMap.debug.xcconfig */,
+				886BC814A8B88EAFDE975BEB /* Pods-YummyMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3C8F6E4A2AD3C814002BBF52 = {
 			isa = PBXGroup;
 			children = (
 				3C8F6E552AD3C814002BBF52 /* YummyMap */,
 				3C8F6E542AD3C814002BBF52 /* Products */,
+				3B30EE372AE3B27F589437A3 /* Pods */,
+				9568813C539CAD1FA3133349 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +84,13 @@
 		3C8F6E552AD3C814002BBF52 /* YummyMap */ = {
 			isa = PBXGroup;
 			children = (
+				3C8F6EB62AD6B6A4002BBF52 /* Model */,
+				3C8F6EB02AD67C07002BBF52 /* AddYummy */,
 				3C8F6E562AD3C814002BBF52 /* YummyMapApp.swift */,
 				3C8F6E582AD3C814002BBF52 /* ContentView.swift */,
+				3C8F6EA82AD5BA0F002BBF52 /* MapView.swift */,
 				3C8F6E5A2AD3C816002BBF52 /* Assets.xcassets */,
+				3C8F6E9C2AD58F38002BBF52 /* Info.plist */,
 				3C8F6E5C2AD3C816002BBF52 /* Preview Content */,
 			);
 			path = YummyMap;
@@ -67,6 +104,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3C8F6EB02AD67C07002BBF52 /* AddYummy */ = {
+			isa = PBXGroup;
+			children = (
+				3C8F6EB12AD67C1C002BBF52 /* AddYummyView.swift */,
+				3C8F6EB92AD6C0ED002BBF52 /* AddYummyViewModel.swift */,
+				3C8F6EB32AD6B499002BBF52 /* GroupList */,
+			);
+			path = AddYummy;
+			sourceTree = "<group>";
+		};
+		3C8F6EB32AD6B499002BBF52 /* GroupList */ = {
+			isa = PBXGroup;
+			children = (
+				3C8F6EB42AD6B4D6002BBF52 /* GroupListView.swift */,
+				3C8F6EBB2AD6E300002BBF52 /* GroupListViewModel.swift */,
+			);
+			path = GroupList;
+			sourceTree = "<group>";
+		};
+		3C8F6EB62AD6B6A4002BBF52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C8F6EB72AD6B6BE002BBF52 /* YummyPlace.swift */,
+				3C8F6EBD2AD701D8002BBF52 /* YummyGroup.swift */,
+				3C8F6EBF2AD701EF002BBF52 /* PlaceCategory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9568813C539CAD1FA3133349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0863AEA5D285F0FD21BB5CFF /* Pods_YummyMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C8F6E612AD3C816002BBF52 /* Build configuration list for PBXNativeTarget "YummyMap" */;
 			buildPhases = (
+				A698019939B334EE284F901C /* [CP] Check Pods Manifest.lock */,
 				3C8F6E4F2AD3C814002BBF52 /* Sources */,
 				3C8F6E502AD3C814002BBF52 /* Frameworks */,
 				3C8F6E512AD3C814002BBF52 /* Resources */,
+				2ACA639758E10FB650C0FE1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +208,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ACA639758E10FB650C0FE1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YummyMap/Pods-YummyMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YummyMap/Pods-YummyMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YummyMap/Pods-YummyMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A698019939B334EE284F901C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YummyMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C8F6E4F2AD3C814002BBF52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3C8F6E592AD3C814002BBF52 /* ContentView.swift in Sources */,
+				3C8F6EBC2AD6E300002BBF52 /* GroupListViewModel.swift in Sources */,
+				3C8F6EB52AD6B4D6002BBF52 /* GroupListView.swift in Sources */,
+				3C8F6EA92AD5BA0F002BBF52 /* MapView.swift in Sources */,
+				3C8F6EBA2AD6C0ED002BBF52 /* AddYummyViewModel.swift in Sources */,
+				3C8F6EBE2AD701D8002BBF52 /* YummyGroup.swift in Sources */,
+				3C8F6EB22AD67C1C002BBF52 /* AddYummyView.swift in Sources */,
+				3C8F6EC02AD701EF002BBF52 /* PlaceCategory.swift in Sources */,
 				3C8F6E572AD3C814002BBF52 /* YummyMapApp.swift in Sources */,
+				3C8F6EB82AD6B6BE002BBF52 /* YummyPlace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +387,7 @@
 		};
 		3C8F6E622AD3C816002BBF52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED51C2F0D5CDE4FB6A15629 /* Pods-YummyMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,11 +397,14 @@
 				DEVELOPMENT_TEAM = 3T3N2732X8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YummyMap/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "해당 앱은~";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +420,7 @@
 		};
 		3C8F6E632AD3C816002BBF52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886BC814A8B88EAFDE975BEB /* Pods-YummyMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,11 +430,14 @@
 				DEVELOPMENT_TEAM = 3T3N2732X8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YummyMap/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "해당 앱은~";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
