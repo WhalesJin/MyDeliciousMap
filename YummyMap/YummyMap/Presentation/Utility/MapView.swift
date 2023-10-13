@@ -9,7 +9,7 @@ import SwiftUI
 import NMapsMap
 
 struct MapView: UIViewRepresentable {
-    @ObservedObject var viewModel = MapSceneViewModel()
+    @ObservedObject var viewModel = YummyMainViewModel()
     
     func makeUIView(context: Context) -> NMFNaverMapView {
         let view = NMFNaverMapView()

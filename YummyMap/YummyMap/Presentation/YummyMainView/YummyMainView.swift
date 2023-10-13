@@ -9,7 +9,29 @@ import SwiftUI
 
 struct YummyMainView: View {
     var body: some View {
-        MapView()
+        NavigationStack {
+            MapView()
+                .navigationTitle("Yummy Map")
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        Button("List") {
+                            
+                        }
+                    }
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button("Filter") {
+                            
+                        }
+                    }
+                    ToolbarItem(placement: .bottomBar) {
+                        Button("List") {
+
+                        }
+                    }
+                    
+                }
+        }
     }
 }
 
