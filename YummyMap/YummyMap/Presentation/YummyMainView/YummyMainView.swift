@@ -26,6 +26,9 @@ struct YummyMainView: View {
                 .position(CGPoint(x: 520, y: 380))
                 
         }
+        .onAppear {
+            Coordinator.shared.checkIfLocationServiceIsEnabled()
+        }
     }
 }
 
