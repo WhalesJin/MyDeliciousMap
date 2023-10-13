@@ -8,29 +8,23 @@
 import SwiftUI
 
 struct YummyMainView: View {
+    @StateObject var coordinator = Coordinator.shared
+    
     var body: some View {
-        NavigationStack {
+        ZStack {
             MapView()
-                .navigationTitle("Yummy Map")
-                .navigationBarTitleDisplayMode(.inline)
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        Button("List") {
-                            
-                        }
-                    }
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Button("Filter") {
-                            
-                        }
-                    }
-                    ToolbarItem(placement: .bottomBar) {
-                        Button("List") {
-
-                        }
-                    }
-                    
-                }
+                .ignoresSafeArea()
+            
+            Rectangle() // 검색창
+                .size(width: 250, height: 50)
+                .fill(.white)
+                .position(CGPoint(x: 230, y: 380))
+            
+            Rectangle() // 필터
+                .size(width: 50, height: 50)
+                .fill(.white)
+                .position(CGPoint(x: 520, y: 380))
+                
         }
     }
 }
