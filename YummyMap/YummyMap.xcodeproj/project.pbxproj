@@ -19,6 +19,7 @@
 		3C8F6EBC2AD6E300002BBF52 /* GroupListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EBB2AD6E300002BBF52 /* GroupListViewModel.swift */; };
 		3C8F6EBE2AD701D8002BBF52 /* YummyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EBD2AD701D8002BBF52 /* YummyGroup.swift */; };
 		3C8F6EC02AD701EF002BBF52 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EBF2AD701EF002BBF52 /* PlaceCategory.swift */; };
+		3CBFF6222ADD5BE30010160A /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF6212ADD5BE30010160A /* Marker.swift */; };
 		3CFABA0C2AD86C13001DBEB5 /* YummyMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA0B2AD86C13001DBEB5 /* YummyMainViewModel.swift */; };
 		3CFABA0E2AD93E77001DBEB5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA0D2AD93E76001DBEB5 /* Coordinator.swift */; };
 		3CFABA102ADC31D1001DBEB5 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CFABA0F2ADC31D1001DBEB5 /* APIKey.plist */; };
@@ -51,6 +52,7 @@
 		3C8F6EBB2AD6E300002BBF52 /* GroupListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewModel.swift; sourceTree = "<group>"; };
 		3C8F6EBD2AD701D8002BBF52 /* YummyGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyGroup.swift; sourceTree = "<group>"; };
 		3C8F6EBF2AD701EF002BBF52 /* PlaceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategory.swift; sourceTree = "<group>"; };
+		3CBFF6212ADD5BE30010160A /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		3CFABA0B2AD86C13001DBEB5 /* YummyMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyMainViewModel.swift; sourceTree = "<group>"; };
 		3CFABA0D2AD93E76001DBEB5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		3CFABA0F2ADC31D1001DBEB5 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			children = (
 				3C8F6EA82AD5BA0F002BBF52 /* MapView.swift */,
 				3CFABA0D2AD93E76001DBEB5 /* Coordinator.swift */,
+				3CBFF6212ADD5BE30010160A /* Marker.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			files = (
 				3CFABA1C2ADC3966001DBEB5 /* NetworkManager.swift in Sources */,
 				3CFABA1A2ADC3944001DBEB5 /* NetworkError.swift in Sources */,
+				3CBFF6222ADD5BE30010160A /* Marker.swift in Sources */,
 				3C8F6E592AD3C814002BBF52 /* YummyMainView.swift in Sources */,
 				3CFABA202ADC4FBE001DBEB5 /* DecodingManager.swift in Sources */,
 				3C8F6EBC2AD6E300002BBF52 /* GroupListViewModel.swift in Sources */,

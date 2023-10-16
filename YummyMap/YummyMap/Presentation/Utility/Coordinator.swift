@@ -34,6 +34,16 @@ final class Coordinator: NSObject, ObservableObject, NMFMapViewTouchDelegate, NM
     func getNaverMapView() -> NMFNaverMapView {
         view
     }
+    
+    func addMarker(yummyPlace: YummyPlace) {
+        let marker = NMFMarker()
+        
+        marker.position = NMGLatLng(lat: yummyPlace.latitude, lng: yummyPlace.longitude)
+        marker.mapView = view.mapView
+        marker.iconImage = NMF_MARKER_IMAGE_BLACK
+        marker.iconTintColor = yummyPlace.group.color
+        
+    }
 }
 
 extension Coordinator: CLLocationManagerDelegate {
