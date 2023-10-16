@@ -21,6 +21,7 @@
 		3C8F6EC02AD701EF002BBF52 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EBF2AD701EF002BBF52 /* PlaceCategory.swift */; };
 		3CFABA0C2AD86C13001DBEB5 /* YummyMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA0B2AD86C13001DBEB5 /* YummyMainViewModel.swift */; };
 		3CFABA0E2AD93E77001DBEB5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA0D2AD93E76001DBEB5 /* Coordinator.swift */; };
+		3CFABA102ADC31D1001DBEB5 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CFABA0F2ADC31D1001DBEB5 /* APIKey.plist */; };
 		E2194D386384458594473EE8 /* Pods_YummyMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0863AEA5D285F0FD21BB5CFF /* Pods_YummyMap.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		3C8F6EBF2AD701EF002BBF52 /* PlaceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategory.swift; sourceTree = "<group>"; };
 		3CFABA0B2AD86C13001DBEB5 /* YummyMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyMainViewModel.swift; sourceTree = "<group>"; };
 		3CFABA0D2AD93E76001DBEB5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		3CFABA0F2ADC31D1001DBEB5 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
 		5ED51C2F0D5CDE4FB6A15629 /* Pods-YummyMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YummyMap.debug.xcconfig"; path = "Target Support Files/Pods-YummyMap/Pods-YummyMap.debug.xcconfig"; sourceTree = "<group>"; };
 		886BC814A8B88EAFDE975BEB /* Pods-YummyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YummyMap.release.xcconfig"; path = "Target Support Files/Pods-YummyMap/Pods-YummyMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 				3C8F6EB62AD6B6A4002BBF52 /* Model */,
 				3C8F6E5A2AD3C816002BBF52 /* Assets.xcassets */,
 				3C8F6E9C2AD58F38002BBF52 /* Info.plist */,
+				3CFABA0F2ADC31D1001DBEB5 /* APIKey.plist */,
 				3C8F6E5C2AD3C816002BBF52 /* Preview Content */,
 			);
 			path = YummyMap;
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFABA102ADC31D1001DBEB5 /* APIKey.plist in Resources */,
 				3C8F6E5E2AD3C816002BBF52 /* Preview Assets.xcassets in Resources */,
 				3C8F6E5B2AD3C816002BBF52 /* Assets.xcassets in Resources */,
 			);
