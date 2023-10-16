@@ -29,6 +29,8 @@ final class YummyPlace {
         self.group = group
         self.category = category
         self.description = description
+        
+        fetchYummyPlaceAddress()
     }
     
     func fetchYummyPlaceAddress() {

@@ -9,7 +9,7 @@ import Foundation
 
 extension Bundle {
     var ClientID: String {
-        guard let file = self.path(forResource: "Info", ofType: "plist") else { return "" }
+        guard let file = self.path(forResource: "APIKey", ofType: "plist") else { return "" }
         
         guard let resource = NSDictionary(contentsOfFile: file) else { return "" }
         
