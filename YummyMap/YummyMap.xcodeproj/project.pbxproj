@@ -22,6 +22,16 @@
 		3CFABA0C2AD86C13001DBEB5 /* YummyMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA0B2AD86C13001DBEB5 /* YummyMainViewModel.swift */; };
 		3CFABA0E2AD93E77001DBEB5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA0D2AD93E76001DBEB5 /* Coordinator.swift */; };
 		3CFABA102ADC31D1001DBEB5 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CFABA0F2ADC31D1001DBEB5 /* APIKey.plist */; };
+		3CFABA122ADC32C2001DBEB5 /* GeocodeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA112ADC32C2001DBEB5 /* GeocodeAPI.swift */; };
+		3CFABA142ADC3425001DBEB5 /* URLConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA132ADC3425001DBEB5 /* URLConfigurable.swift */; };
+		3CFABA162ADC34FA001DBEB5 /* Bundle+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA152ADC34FA001DBEB5 /* Bundle+.swift */; };
+		3CFABA182ADC3679001DBEB5 /* URL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA172ADC3679001DBEB5 /* URL+.swift */; };
+		3CFABA1A2ADC3944001DBEB5 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA192ADC3944001DBEB5 /* NetworkError.swift */; };
+		3CFABA1C2ADC3966001DBEB5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA1B2ADC3966001DBEB5 /* NetworkManager.swift */; };
+		3CFABA202ADC4FBE001DBEB5 /* DecodingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA1F2ADC4FBE001DBEB5 /* DecodingManager.swift */; };
+		3CFABA222ADC4FE8001DBEB5 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA212ADC4FE8001DBEB5 /* DataError.swift */; };
+		3CFABA242ADC58C4001DBEB5 /* YummyPlaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA232ADC58C4001DBEB5 /* YummyPlaceManager.swift */; };
+		3CFABA282ADD4EF3001DBEB5 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA272ADD4EF3001DBEB5 /* Address.swift */; };
 		E2194D386384458594473EE8 /* Pods_YummyMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0863AEA5D285F0FD21BB5CFF /* Pods_YummyMap.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +54,16 @@
 		3CFABA0B2AD86C13001DBEB5 /* YummyMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyMainViewModel.swift; sourceTree = "<group>"; };
 		3CFABA0D2AD93E76001DBEB5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		3CFABA0F2ADC31D1001DBEB5 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
+		3CFABA112ADC32C2001DBEB5 /* GeocodeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodeAPI.swift; sourceTree = "<group>"; };
+		3CFABA132ADC3425001DBEB5 /* URLConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConfigurable.swift; sourceTree = "<group>"; };
+		3CFABA152ADC34FA001DBEB5 /* Bundle+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+.swift"; sourceTree = "<group>"; };
+		3CFABA172ADC3679001DBEB5 /* URL+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+.swift"; sourceTree = "<group>"; };
+		3CFABA192ADC3944001DBEB5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		3CFABA1B2ADC3966001DBEB5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3CFABA1F2ADC4FBE001DBEB5 /* DecodingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingManager.swift; sourceTree = "<group>"; };
+		3CFABA212ADC4FE8001DBEB5 /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		3CFABA232ADC58C4001DBEB5 /* YummyPlaceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyPlaceManager.swift; sourceTree = "<group>"; };
+		3CFABA272ADD4EF3001DBEB5 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		5ED51C2F0D5CDE4FB6A15629 /* Pods-YummyMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YummyMap.debug.xcconfig"; path = "Target Support Files/Pods-YummyMap/Pods-YummyMap.debug.xcconfig"; sourceTree = "<group>"; };
 		886BC814A8B88EAFDE975BEB /* Pods-YummyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YummyMap.release.xcconfig"; path = "Target Support Files/Pods-YummyMap/Pods-YummyMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +154,8 @@
 				3C8F6EB72AD6B6BE002BBF52 /* YummyPlace.swift */,
 				3C8F6EBD2AD701D8002BBF52 /* YummyGroup.swift */,
 				3C8F6EBF2AD701EF002BBF52 /* PlaceCategory.swift */,
+				3CFABA232ADC58C4001DBEB5 /* YummyPlaceManager.swift */,
+				3CFABA252ADD3574001DBEB5 /* Network */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +186,30 @@
 				3CFABA0B2AD86C13001DBEB5 /* YummyMainViewModel.swift */,
 			);
 			path = YummyMainView;
+			sourceTree = "<group>";
+		};
+		3CFABA252ADD3574001DBEB5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3CFABA272ADD4EF3001DBEB5 /* Address.swift */,
+				3CFABA1B2ADC3966001DBEB5 /* NetworkManager.swift */,
+				3CFABA1F2ADC4FBE001DBEB5 /* DecodingManager.swift */,
+				3CFABA112ADC32C2001DBEB5 /* GeocodeAPI.swift */,
+				3CFABA132ADC3425001DBEB5 /* URLConfigurable.swift */,
+				3CFABA152ADC34FA001DBEB5 /* Bundle+.swift */,
+				3CFABA172ADC3679001DBEB5 /* URL+.swift */,
+				3CFABA262ADD35A3001DBEB5 /* Error */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3CFABA262ADD35A3001DBEB5 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				3CFABA192ADC3944001DBEB5 /* NetworkError.swift */,
+				3CFABA212ADC4FE8001DBEB5 /* DataError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 		9568813C539CAD1FA3133349 /* Frameworks */ = {
@@ -289,18 +335,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFABA1C2ADC3966001DBEB5 /* NetworkManager.swift in Sources */,
+				3CFABA1A2ADC3944001DBEB5 /* NetworkError.swift in Sources */,
 				3C8F6E592AD3C814002BBF52 /* YummyMainView.swift in Sources */,
+				3CFABA202ADC4FBE001DBEB5 /* DecodingManager.swift in Sources */,
 				3C8F6EBC2AD6E300002BBF52 /* GroupListViewModel.swift in Sources */,
+				3CFABA142ADC3425001DBEB5 /* URLConfigurable.swift in Sources */,
+				3CFABA182ADC3679001DBEB5 /* URL+.swift in Sources */,
 				3CFABA0C2AD86C13001DBEB5 /* YummyMainViewModel.swift in Sources */,
 				3C8F6EB52AD6B4D6002BBF52 /* GroupListView.swift in Sources */,
 				3C8F6EA92AD5BA0F002BBF52 /* MapView.swift in Sources */,
+				3CFABA222ADC4FE8001DBEB5 /* DataError.swift in Sources */,
 				3C8F6EBA2AD6C0ED002BBF52 /* AddYummyViewModel.swift in Sources */,
 				3C8F6EBE2AD701D8002BBF52 /* YummyGroup.swift in Sources */,
+				3CFABA242ADC58C4001DBEB5 /* YummyPlaceManager.swift in Sources */,
 				3C8F6EB22AD67C1C002BBF52 /* AddYummyView.swift in Sources */,
+				3CFABA162ADC34FA001DBEB5 /* Bundle+.swift in Sources */,
 				3CFABA0E2AD93E77001DBEB5 /* Coordinator.swift in Sources */,
 				3C8F6EC02AD701EF002BBF52 /* PlaceCategory.swift in Sources */,
 				3C8F6E572AD3C814002BBF52 /* YummyMapApp.swift in Sources */,
 				3C8F6EB82AD6B6BE002BBF52 /* YummyPlace.swift in Sources */,
+				3CFABA282ADD4EF3001DBEB5 /* Address.swift in Sources */,
+				3CFABA122ADC32C2001DBEB5 /* GeocodeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
