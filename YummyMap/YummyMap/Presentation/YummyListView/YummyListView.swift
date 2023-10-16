@@ -22,8 +22,12 @@ struct YummyListView: View {
     var body: some View {
         NavigationSplitView {
             List(yummyPlaces) { place in
+                NavigationLink {
+                    YummyDetailView(yummyPlace: place)
+                } label: {
                     YummyRow(yummyPlace: place)
                         .listRowInsets(.init())
+                }
             }
             .navigationTitle("Yummy")
         } detail: {
