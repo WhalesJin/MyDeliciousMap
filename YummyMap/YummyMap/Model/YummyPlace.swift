@@ -5,7 +5,11 @@
 //  Created by Whales on 10/11/23.
 //
 
-final class YummyPlace {
+import Foundation
+
+final class YummyPlace: Identifiable {
+    let id = UUID()
+    
     var name: String
     var location: String
     var group: Group

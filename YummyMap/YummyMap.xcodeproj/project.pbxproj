@@ -20,6 +20,8 @@
 		3C8F6EBE2AD701D8002BBF52 /* YummyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EBD2AD701D8002BBF52 /* YummyGroup.swift */; };
 		3C8F6EC02AD701EF002BBF52 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F6EBF2AD701EF002BBF52 /* PlaceCategory.swift */; };
 		3CBFF6222ADD5BE30010160A /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF6212ADD5BE30010160A /* Marker.swift */; };
+		3CBFF6252ADDB7880010160A /* YummyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF6242ADDB7880010160A /* YummyListView.swift */; };
+		3CBFF6282ADDB8B00010160A /* YummyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF6272ADDB8B00010160A /* YummyRow.swift */; };
 		3CFABA0C2AD86C13001DBEB5 /* YummyMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA0B2AD86C13001DBEB5 /* YummyMainViewModel.swift */; };
 		3CFABA0E2AD93E77001DBEB5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFABA0D2AD93E76001DBEB5 /* Coordinator.swift */; };
 		3CFABA102ADC31D1001DBEB5 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CFABA0F2ADC31D1001DBEB5 /* APIKey.plist */; };
@@ -53,6 +55,8 @@
 		3C8F6EBD2AD701D8002BBF52 /* YummyGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyGroup.swift; sourceTree = "<group>"; };
 		3C8F6EBF2AD701EF002BBF52 /* PlaceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategory.swift; sourceTree = "<group>"; };
 		3CBFF6212ADD5BE30010160A /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		3CBFF6242ADDB7880010160A /* YummyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyListView.swift; sourceTree = "<group>"; };
+		3CBFF6272ADDB8B00010160A /* YummyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyRow.swift; sourceTree = "<group>"; };
 		3CFABA0B2AD86C13001DBEB5 /* YummyMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyMainViewModel.swift; sourceTree = "<group>"; };
 		3CFABA0D2AD93E76001DBEB5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		3CFABA0F2ADC31D1001DBEB5 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
@@ -162,11 +166,29 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		3CBFF6232ADDB76C0010160A /* YummyListView */ = {
+			isa = PBXGroup;
+			children = (
+				3CBFF6242ADDB7880010160A /* YummyListView.swift */,
+				3CBFF6262ADDB8710010160A /* YummyRow */,
+			);
+			path = YummyListView;
+			sourceTree = "<group>";
+		};
+		3CBFF6262ADDB8710010160A /* YummyRow */ = {
+			isa = PBXGroup;
+			children = (
+				3CBFF6272ADDB8B00010160A /* YummyRow.swift */,
+			);
+			path = YummyRow;
+			sourceTree = "<group>";
+		};
 		3CFABA082AD86B1B001DBEB5 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
 				3CFABA092AD86B4E001DBEB5 /* Utility */,
 				3CFABA0A2AD86BEB001DBEB5 /* YummyMainView */,
+				3CBFF6232ADDB76C0010160A /* YummyListView */,
 				3C8F6EB02AD67C07002BBF52 /* AddYummy */,
 			);
 			path = Presentation;
@@ -339,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CFABA1C2ADC3966001DBEB5 /* NetworkManager.swift in Sources */,
+				3CBFF6282ADDB8B00010160A /* YummyRow.swift in Sources */,
 				3CFABA1A2ADC3944001DBEB5 /* NetworkError.swift in Sources */,
 				3CBFF6222ADD5BE30010160A /* Marker.swift in Sources */,
 				3C8F6E592AD3C814002BBF52 /* YummyMainView.swift in Sources */,
@@ -360,6 +383,7 @@
 				3C8F6E572AD3C814002BBF52 /* YummyMapApp.swift in Sources */,
 				3C8F6EB82AD6B6BE002BBF52 /* YummyPlace.swift in Sources */,
 				3CFABA282ADD4EF3001DBEB5 /* Address.swift in Sources */,
+				3CBFF6252ADDB7880010160A /* YummyListView.swift in Sources */,
 				3CFABA122ADC32C2001DBEB5 /* GeocodeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
