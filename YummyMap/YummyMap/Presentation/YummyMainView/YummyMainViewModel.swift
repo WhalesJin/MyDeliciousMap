@@ -7,10 +7,11 @@
 
 import SwiftUI
 
-class YummyMainViewModel: ObservableObject {
 final class YummyMainViewModel: ObservableObject {
     @Published var places: [YummyPlace] = []
     @Published var groups: [Group] = []
+    @Published var isFormOn: Bool = false
+    @Published var changeToListView: Bool = false
     
     init(places: [YummyPlace]) {
         self.places = places
@@ -21,6 +22,16 @@ final class YummyMainViewModel: ObservableObject {
             groups.append(place.group)
         }
     }
+    
+    func setFormVisible(_ isVisible: Bool) {
+        isFormOn = isVisible
+    }
+    
+    func changeToListView(_ isChanged: Bool) {
+        changeToListView = isChanged
+    }
+}
+
 extension YummyMainViewModel {
     static let mock = YummyMainViewModel(places: mockPlaces)
     
