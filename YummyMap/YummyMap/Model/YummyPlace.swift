@@ -41,8 +41,8 @@ final class YummyPlace: Identifiable {
         yummyPlaceManager.fetchYummyPlaceAddress(with: location) { [weak self] result in
             switch result {
             case .success(let address):
-                self?.latitude = Double(address.addresses[0].x) ?? 0.0
-                self?.longitude = Double(address.addresses[0].y) ?? 0.0
+                self?.latitude = Double(address.addresses[0].y) ?? 0.0
+                self?.longitude = Double(address.addresses[0].x) ?? 0.0
             case .failure(let error):
                 print(error.localizedDescription)
             }
