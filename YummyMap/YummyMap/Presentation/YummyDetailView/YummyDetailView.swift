@@ -6,10 +6,16 @@
 //
 
 import SwiftUI
-import NMapsMap
 
 struct YummyDetailView: View {
-    let yummyPlace: YummyPlace
+    @State var yummyDetailViewModel: YummyDetailViewModel
+    var yummyPlace: YummyPlace {
+        yummyDetailViewModel.yummyPlace
+    }
+    
+    init(_ yummyDetailViewModel: YummyDetailViewModel) {
+        self.yummyDetailViewModel = yummyDetailViewModel
+    }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
@@ -49,12 +55,16 @@ struct YummyDetailView: View {
 
 struct YummyDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        YummyDetailView(yummyPlace: YummyPlace(
-            name: "원동미나리삼겹살",
-            location: "서울 용산구 한강대로77길 4-1",
-            group: .init(name: "가보쟈", color: .systemGreen),
-            category: .koreanFood,
-            description: "누가 추천해줬더라 🤔"
-        ))
+        YummyDetailView(
+            YummyDetailViewModel(
+                YummyPlace(
+                    name: "원동미나리삼겹살",
+                    location: "서울 용산구 한강대로77길 4-1",
+                    group: .init(name: "가보쟈", color: .systemGreen),
+                    category: .koreanFood,
+                    description: "누가 추천해줬더라 🤔"
+                )
+            )
+        )
     }
 }

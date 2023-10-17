@@ -8,22 +8,17 @@
 import SwiftUI
 
 struct YummyListView: View {
-    private let yummyPlaces: [YummyPlace]
-    var groups: [Group] = []
+    @State var yummyListViewModel: YummyListViewModel
     
-    init(yummyPlaces: [YummyPlace]) {
-        self.yummyPlaces = yummyPlaces
-        
-        yummyPlaces.forEach { place in
-            groups.append(place.group)
-        }
+    init(_ yummyListViewModel: YummyListViewModel) {
+        self.yummyListViewModel = yummyListViewModel
     }
     
     var body: some View {
         NavigationSplitView {
-            List(yummyPlaces) { place in
+            List(yummyListViewModel.yummyPlaces) { place in
                 NavigationLink {
-                    YummyDetailView(yummyPlace: place)
+                    YummyDetailView(YummyDetailViewModel(place))
                 } label: {
                     YummyRow(yummyPlace: place)
                         .listRowInsets(.init())
@@ -38,6 +33,6 @@ struct YummyListView: View {
 
 struct YummyListView_Previews: PreviewProvider {
     static var previews: some View {
-        YummyListView(yummyPlaces: YummyMainViewModel.mockPlaces)
+        YummyListView(YummyListViewModel(yummyPlaces: YummyMainViewModel.mockPlaces))
     }
 }
