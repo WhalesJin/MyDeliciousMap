@@ -77,6 +77,9 @@ struct YummyMainView: View {
         .sheet(isPresented: $yummyMainViewModel.isAddViewOn) {
             AddYummyView(addYummyViewModel: AddYummyViewModel(), yummyMainViewModel: yummyMainViewModel)
         }
+        .sheet(isPresented: $yummyMainViewModel.isDetailViewOn) {
+            YummyDetailView(YummyDetailViewModel(yummyMainViewModel.touchedPlace))
+        }
     }
 }
 

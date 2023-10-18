@@ -16,4 +16,8 @@ struct Marker {
         marker.iconImage = NMF_MARKER_IMAGE_BLACK
         marker.iconTintColor = yummyPlace.group.color
     }
+    
+    func showDetail(_ action: NMFOverlayTouchHandler?) {
+        marker.touchHandler = action
+    }
 }

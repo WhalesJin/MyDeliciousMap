@@ -17,7 +17,12 @@ struct MapView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> NMFNaverMapView {
         viewModel.places.forEach { place in
-            context.coordinator.addMarker(yummyPlace: place)
+            let marker = Marker(yummyPlace: place, mapView: context.coordinator.view.mapView)
+            marker.showDetail { (overlay) -> Bool  in
+                viewModel.setFormVisible(form: .detail, true)
+                viewModel.setTouchedPlace(place)
+                return true
+            }
         }
         
         return context.coordinator.getNaverMapView()
