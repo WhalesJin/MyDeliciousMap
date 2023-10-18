@@ -9,13 +9,13 @@ import SwiftUI
 
 struct YummyMainView: View {
     @StateObject var coordinator = Coordinator.shared
-    @State var yummyMainViewModel: YummyMainViewModel
+    @ObservedObject var yummyMainViewModel: YummyMainViewModel
     
     var body: some View {
         ZStack {
             MapView(viewModel: yummyMainViewModel)
                 .ignoresSafeArea()
-            
+                
             VStack {
                 HStack {
                     Spacer()
@@ -50,7 +50,7 @@ struct YummyMainView: View {
                     Spacer()
                     
                     Button {
-                        yummyMainViewModel.setFormVisible(true)
+                        yummyMainViewModel.setFormVisible(form: .add, true)
                     } label: {
                         Image(systemName: "plus")
                             .frame(width: 50, height: 50)
@@ -70,6 +70,12 @@ struct YummyMainView: View {
         }
         .onAppear {
             Coordinator.shared.checkIfLocationServiceIsEnabled()
+        }
+        .sheet(isPresented: $yummyMainViewModel.changeToListView) {
+            YummyListView(YummyListViewModel(yummyPlaces: yummyMainViewModel.places))
+        }
+        .sheet(isPresented: $yummyMainViewModel.isAddViewOn) {
+            AddYummyView(addYummyViewModel: AddYummyViewModel(), yummyMainViewModel: yummyMainViewModel)
         }
     }
 }

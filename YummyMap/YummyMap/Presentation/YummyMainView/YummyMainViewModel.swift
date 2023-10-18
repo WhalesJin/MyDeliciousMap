@@ -10,8 +10,18 @@ import SwiftUI
 final class YummyMainViewModel: ObservableObject {
     @Published var places: [YummyPlace] = []
     @Published var groups: [Group] = []
-    @Published var isFormOn: Bool = false
+    @Published var isAddViewOn: Bool = false
+    @Published var isDetailViewOn: Bool = false
     @Published var changeToListView: Bool = false
+    @Published var touchedPlace: YummyPlace = YummyPlace(name: "",
+                                                         location: "",
+                                                         group: .init(),
+                                                         category: .others,
+                                                         description: "")
+    
+    enum Form {
+        case add, detail
+    }
     
     init(places: [YummyPlace]) {
         self.places = places
@@ -23,8 +33,17 @@ final class YummyMainViewModel: ObservableObject {
         }
     }
     
-    func setFormVisible(_ isVisible: Bool) {
-        isFormOn = isVisible
+    func setFormVisible(form: Form, _ isVisible: Bool) {
+        switch form {
+        case .add:
+            isAddViewOn = isVisible
+        case .detail:
+            isDetailViewOn = isVisible
+        }
+    }
+    
+    func setTouchedPlace(_ place: YummyPlace) {
+        touchedPlace = place
     }
     
     func changeToListView(_ isChanged: Bool) {

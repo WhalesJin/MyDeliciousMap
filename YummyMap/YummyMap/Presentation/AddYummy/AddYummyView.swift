@@ -9,6 +9,8 @@ import SwiftUI
 
 struct AddYummyView: View {
     @State var addYummyViewModel: AddYummyViewModel
+    @State var yummyMainViewModel: YummyMainViewModel
+    
     var yummyPlace: YummyPlace {
         addYummyViewModel.yummyPlace
     }
@@ -51,7 +53,7 @@ struct AddYummyView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(role: .cancel) {
-                        
+                        yummyMainViewModel.setFormVisible(form: .add, false)
                     } label: {
                         Text("취소")
                     }
@@ -68,6 +70,6 @@ struct AddYummyView: View {
 
 struct AddYummyView_Previews: PreviewProvider {
     static var previews: some View {
-        AddYummyView(addYummyViewModel: AddYummyViewModel.mock)
+        AddYummyView(addYummyViewModel: AddYummyViewModel(), yummyMainViewModel: YummyMainViewModel.mock)
     }
 }
